@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  position: fixed;
+  bottom: 0;
+  /* border: 1px solid white; */
+  width: 100vw;
+  height: 7rem;
+}
+
+.contact p{
+  color: white;
+  font-size: 20px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+  gap: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+

@@ -1,0 +1,21 @@
+.description_container {
+  display: flex;
+  align-items: center;
+  border: solid 2px rgba(0, 0, 0, 0.317);
+  border-radius: 10px;
+  background-color: transparent;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.35);
+  width: 55%;
+  color: white;
+  font-size: 24px;
+  padding: 1.5rem;
+}
+
+.apropos_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
