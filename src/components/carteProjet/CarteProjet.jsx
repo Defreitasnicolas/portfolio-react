@@ -1,21 +1,29 @@
+/* eslint-disable react/prop-types */
 import "../carteProjet/CarteProjet.css";
-import CapTeam from "../../assets/CapTeam_fullScreen.png";
 
-function CarteProjet() {
+function CarteProjet(props) {
   return (
     <div className="card_container">
-      <div className="carte">
+      <h2 className="title">{props.projectName}</h2>
+      <div className="card">
         <img
           className="image_project"
-          src={CapTeam}
-          alt="ceci est l image du projet capteam"
+          src={props.imageSrc}
+          alt={props.imageAlt}
         />
       </div>
       <div className="description">
-        <p>logo techno</p> <br />
-        <p>
-         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, natus?
-        </p>
+        <div className="logo">
+          {props.logoTechno.map((logo, index) => (
+            <img
+              key={index}
+              src={logo}
+              alt={props.technoAlt[index]}
+              width={40}
+            />
+          ))}
+        </div>
+        <p>{props.description}</p>
       </div>
     </div>
   );
