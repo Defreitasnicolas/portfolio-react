@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import "../projets/Projets.css";
 import CarteProjet from "../../components/carteProjet/CarteProjet";
+
 function Projets() {
   const projectsData = [
     {
@@ -26,7 +27,7 @@ function Projets() {
     },
     {
       id: 3,
-      projectName: "wildy Gamy",
+      projectName: "Wildy Gamy",
       imageSrc: "src/assets/WildyGamy.png",
       imageAlt: "Ceci est l image du site wildy Gamy",
       logoTechno: ["src/assets/reactjs.svg", "src/assets/sass-original.svg", "src/assets/javascript.svg", "src/assets/nodejs.svg", "src/assets/mysql.svg", "src/assets/git.svg", "src/assets/github.svg"],
