@@ -1,23 +1,43 @@
+/* eslint-disable react/prop-types */
 import "../carteProjet/CarteProjet.css";
-import CapTeam from "../../assets/CapTeam_fullScreen.png";
+import { useState } from "react";
 
-function CarteProjet() {
+function CarteProjet(props) {
+  const [isCardClicked, setIsCardClicked] = useState(false);
+  // const [oneCardIsCliked, setOneCardIsCliked] = useState(true);
+
+  const handleCardClick = () => {
+    setIsCardClicked(!isCardClicked);
+  };
   return (
-    <div className="card_container">
-      <div className="carte">
-        <img
-          className="image_project"
-          src={CapTeam}
-          alt="ceci est l image du projet capteam"
-        />
-      </div>
-      <div className="description">
-        <p>logo techno</p> <br />
-        <p>
-         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, natus?
-        </p>
-      </div>
-    </div>
+    <>
+      {!isCardClicked ? (
+        <div className="card_container" onClick={handleCardClick}>
+          <h2 className="title">{props.projectName}</h2>
+          <div className="card">
+            <img
+              className="image_project"
+              src={props.imageSrc}
+              alt={props.imageAlt}
+            />
+          </div>
+          <div className="logo">
+            {props.logoTechno.map((logo, id) => (
+              <img
+                key={id}
+                src={logo}
+                alt={props.technoAlt[id]}
+                width={40}
+              />
+            ))}
+          </div>
+        </div>
+      ) : (
+        <div className="description" onClick={handleCardClick}>
+          {isCardClicked && <p>{props.description}</p>}
+        </div>
+      )}
+    </>
   );
 }
 
