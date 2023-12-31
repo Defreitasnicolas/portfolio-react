@@ -3,7 +3,29 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
   width: 100vw;
-  height: 100vh;
+  height: auto;
+}
+
+.projet {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 9rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .projet {
+    padding-top: 9rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 490px) {
 }

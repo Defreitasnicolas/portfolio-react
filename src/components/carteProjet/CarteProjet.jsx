@@ -29,7 +29,7 @@ function CarteProjet(props) {
         </div>
       ) : (
         <div className="description" onClick={handleCardClick}>
-          {setIsCardClicked && <p>{props.description}</p>}
+          {isCardClicked && <p>{props.description}</p>}
         </div>
       )}
     </>

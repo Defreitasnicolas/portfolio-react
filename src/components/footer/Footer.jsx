@@ -10,7 +10,6 @@ function Footer() {
 
   return (
     <div className="footer">
-      <div></div>
       <div className="contact">
         <a href={githubUrl} target="_blank" rel="noopener noreferrer">
           <img src={github} alt="github_link" />
@@ -21,7 +20,6 @@ function Footer() {
         <a href="mailto:defreitasnicolas605@gmail.com">
           <p>defreitasnicolas605@gmail.com</p>
         </a>
-        ;
       </div>
     </div>
   );
