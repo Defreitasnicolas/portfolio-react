@@ -23,12 +23,7 @@ function CarteProjet(props) {
           </div>
           <div className="logo">
             {props.logoTechno.map((logo, id) => (
-              <img
-                key={id}
-                src={logo}
-                alt={props.technoAlt[id]}
-                width={40}
-              />
+              <img key={id} src={logo} alt={props.technoAlt} width={40} />
             ))}
           </div>
         </div>

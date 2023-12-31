@@ -36,7 +36,7 @@
   backdrop-filter: blur(3px);
   border-radius: 10px;
   font-size: 20px;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   padding: 1rem;
   text-align: center;
 }
@@ -44,7 +44,7 @@
 .description:hover {
   transform: scale(1.1);
 }
-              /* regler l'espacement des logos */
+/* regler l'espacement des logos */
 .logo {
   display: flex;
   justify-content: space-around;
@@ -60,3 +60,17 @@
   font-size: 26px;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 1200px) {
+  .logo {
+   margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .logo {
+   margin-bottom: 3rem;
+  }
+}
+
