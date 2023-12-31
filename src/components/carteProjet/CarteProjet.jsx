@@ -4,7 +4,6 @@ import { useState } from "react";
 
 function CarteProjet(props) {
   const [isCardClicked, setIsCardClicked] = useState(false);
-  // const [oneCardIsCliked, setOneCardIsCliked] = useState(true);
 
   const handleCardClick = () => {
     setIsCardClicked(!isCardClicked);

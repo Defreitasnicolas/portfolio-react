@@ -44,7 +44,7 @@
 .description:hover {
   transform: scale(1.1);
 }
-/* regler l'espacement des logos */
+
 .logo {
   display: flex;
   justify-content: space-around;
@@ -61,16 +61,14 @@
   cursor: pointer;
 }
 
-
 @media screen and (max-width: 1200px) {
   .logo {
-   margin-bottom: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
 @media screen and (max-width: 970px) {
   .logo {
-   margin-bottom: 3rem;
+    margin-bottom: 3rem;
   }
 }
-
