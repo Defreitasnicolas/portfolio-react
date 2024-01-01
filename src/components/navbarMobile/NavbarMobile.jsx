@@ -19,7 +19,9 @@ function NavbarMobile() {
   };
 
   return (
-    <div className="burger_container" style={{ width: "100%", height: "100vh" }}>
+    <div
+      className="burger_container"
+    >
       <nav>
         <div className="burger-menu" onClick={updateMenu}>
           <div className={burger_class}></div>
@@ -29,9 +31,15 @@ function NavbarMobile() {
       </nav>
       <div className={menu_class}>
         <div className="navlink">
-          <Link className="link" to="/">Accueil</Link>
-          <Link className="link" to="/Apropos">A propos de moi</Link>
-          <Link className="link" to="/Projets">Mes projets</Link>
+          <Link className="link" to="/">
+            Accueil
+          </Link>
+          <Link className="link" to="/Apropos">
+            A propos de moi
+          </Link>
+          <Link className="link" to="/Projets">
+            Mes projets
+          </Link>
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 .burger_container {
   position: fixed;
   z-index: 1;
+  width: 100%;
 }
 
 nav {
@@ -51,6 +52,7 @@ nav {
   align-items: center;
   background-color: transparent;
   height: 3rem;
+  
 }
 
 .burger-bar.clicked:nth-child(1) {
@@ -83,12 +85,12 @@ nav {
     visibility: hidden;
   }
 }
-
+ 
 @media screen and (max-width: 1200px) {
   .visible {
     justify-content: center;
   }
-}
+} 
 
 @media screen and (max-width: 490px) {
   .burger_container {
