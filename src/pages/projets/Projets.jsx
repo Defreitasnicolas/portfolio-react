@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import "../projets/Projets.css";
 import CarteProjet from "../../components/carteProjet/CarteProjet";
 

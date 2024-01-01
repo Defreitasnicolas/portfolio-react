@@ -1,6 +1,6 @@
-/* eslint-disable react/prop-types */
 import "../carteProjet/CarteProjet.css";
 import { useState } from "react";
+import  PropTypes  from "prop-types";
 
 function CarteProjet(props) {
   const [isCardClicked, setIsCardClicked] = useState(false);
@@ -34,5 +34,14 @@ function CarteProjet(props) {
     </>
   );
 }
+
+CarteProjet.propTypes = {
+  projectName: PropTypes.string.isRequired,
+  imageSrc: PropTypes.string.isRequired,
+  imageAlt: PropTypes.string.isRequired,
+  logoTechno: PropTypes.arrayOf(PropTypes.string).isRequired,
+  technoAlt: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};
 
 export default CarteProjet;
