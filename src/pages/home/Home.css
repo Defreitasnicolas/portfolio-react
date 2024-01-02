@@ -48,6 +48,15 @@
   width: 100%;
 }
 
+@media screen and (min-width: 1200px) {
+  .bienvenue {
+    margin-top: 10rem;
+  }
+  .picture-container {
+   margin-top: 10rem;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .bienvenue {
     text-align: center;

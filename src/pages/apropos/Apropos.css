@@ -20,6 +20,15 @@
   justify-content: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .description_container {
+    margin-top: 5rem;
+  }
+  .apropos_container {
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .description_container {
     font-size: 18px;
