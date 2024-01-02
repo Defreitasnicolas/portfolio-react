@@ -25,12 +25,12 @@ a {
   text-decoration: none;
 }
 
- @media screen and (min-width: 1200px) {
-
-  .footer {
-    margin-bottom: 1rem;
-    /* position: relative; */
-    margin-top: 2rem;
+@media screen and (min-width: 1200px) {
+  .footer-projets {
+    position: static;
+    height: auto;
+    margin-top: 7rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -74,4 +74,4 @@ a {
   .contact {
     justify-content: center;
   }
-} 
+}

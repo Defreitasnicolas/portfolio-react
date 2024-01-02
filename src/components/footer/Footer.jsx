@@ -1,15 +1,18 @@
+import { useLocation } from "react-router-dom";
 import "../footer/Footer.css";
 import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
-
 
 function Footer() {
   const githubUrl = "https://github.com/Defreitasnicolas";
   const linkedinUrl =
     "https://www.linkedin.com/in/nicolas-de-freitas-a34a78291";
 
+  const location = useLocation();
+  const currentPageClass = determineCurrentPageClass(location.pathname);
+
   return (
-    <div className="footer">
+    <div className={`footer ${currentPageClass}`}>
       <div className="contact">
         <a href={githubUrl} target="_blank" rel="noopener noreferrer">
           <img src={github} alt="github_link" />
@@ -23,6 +26,13 @@ function Footer() {
       </div>
     </div>
   );
+}
+
+function determineCurrentPageClass(pathname) {
+  if (pathname === "/Projets") {
+    return "footer-projets";
+  }
+  return "footer";
 }
 
 export default Footer;
