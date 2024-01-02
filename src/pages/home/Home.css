@@ -35,7 +35,7 @@
 
 .picture-container {
   width: 20rem;
-  height: 20rem;
+  height: auto;
   border-radius: 20rem;
   border: solid 2px rgba(0, 0, 0, 0.317);
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.35);
