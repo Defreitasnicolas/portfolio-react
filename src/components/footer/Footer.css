@@ -25,11 +25,20 @@ a {
   text-decoration: none;
 }
 
+ @media screen and (min-width: 1200px) {
+
+  .footer {
+    margin-bottom: 1rem;
+    /* position: relative; */
+    margin-top: 2rem;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .contact {
-  margin-left: 0.5rem;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+    margin-left: 0.5rem;
+    gap: 0.5rem;
+    flex-wrap: wrap;
   }
   .contact p {
     font-size: 16px;
@@ -44,9 +53,9 @@ a {
 
 @media screen and (max-width: 900px) {
   .contact {
-  margin-left: 0.5rem;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+    margin-left: 0.5rem;
+    gap: 0.5rem;
+    flex-wrap: wrap;
   }
   .contact p {
     font-size: 16px;
@@ -65,4 +74,4 @@ a {
   .contact {
     justify-content: center;
   }
-}
+} 
