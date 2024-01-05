@@ -27,9 +27,10 @@ a {
 
 @media screen and (min-width: 1200px) {
   .footer-projets {
+    width: 100%;
     position: static;
     height: auto;
-    margin-top: 7rem;
+    margin-top: 5rem;
     padding-bottom: 1rem;
   }
 }

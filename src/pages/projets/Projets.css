@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 100%;
   height: auto;
 }
 
@@ -17,7 +17,6 @@
   padding-top: 9rem;
   width: 100%;
 }
-
 
 @media screen and (max-width: 1200px) {
   .projet {

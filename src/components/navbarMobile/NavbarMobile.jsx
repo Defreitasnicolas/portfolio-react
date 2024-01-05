@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../navbarMobile/NavbarMobile.css";
 
@@ -18,10 +18,19 @@ function NavbarMobile() {
     setIsMenuClicked(!isMenuClicked);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (isMenuClicked) {
+        updateMenu();
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+  });
+
+ 
   return (
-    <div
-      className="burger_container"
-    >
+    <div className="burger_container">
       <nav>
         <div className="burger-menu" onClick={updateMenu}>
           <div className={burger_class}></div>

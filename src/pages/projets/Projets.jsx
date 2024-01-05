@@ -82,6 +82,7 @@ function Projets() {
       description:
         "En cours de developpement, wildy gamy un site de jeux en ligne concue a quatres pour le projet numero trois de notre formation",
     },
+    
   ];
   return (
     <div className="projects_container">
