@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 import "../footer/Footer.css";
-import github from "../../assets/github.png";
-import linkedin from "../../assets/linkedin.png";
+import github from "/github.png";
+import linkedin from "/linkedin.png";
 
 function Footer() {
   const githubUrl = "https://github.com/Defreitasnicolas";
