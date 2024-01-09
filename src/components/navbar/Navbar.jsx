@@ -9,10 +9,10 @@ function Navbar() {
         <Link className="link" to="/">
           <h2>Accueil</h2>
         </Link>
-        <Link className="link" to="/Apropos">
+        <Link className="link" to="/apropos">
           <h2>A propos de moi</h2>
         </Link>
-        <Link className="link" to="/Projets">
+        <Link className="link" to="/projets">
           <h2>Mes projets</h2>
         </Link>
         <Cv />

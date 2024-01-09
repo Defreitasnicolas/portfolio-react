@@ -29,7 +29,7 @@ function Footer() {
 }
 
 function determineCurrentPageClass(pathname) {
-  if (pathname === "/Projets") {
+  if (pathname === "/projets") {
     return "footer-projets";
   }
   return "footer";
