@@ -7,7 +7,7 @@ function Home() {
       <div className="bienvenue">
         <h2>Bonjour et bienvenue !</h2>
         <p>NICOLAS DE FREITAS</p>
-        <p>Développeur WEB/WEBMOBILE</p>
+        <p>Développeur WEB/WEB MOBILE</p>
       </div>
       <div className="picture-container">
         <img className="picture" src={picture} alt="foto de moi" />

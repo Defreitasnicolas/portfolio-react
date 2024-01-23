@@ -25,7 +25,7 @@ function Projets() {
         "Ceci est le logo github",
       ],
       description:
-        "Xmass.click est un projet hackathon realisé sur 36 heures a 5 personnes. Realisé dans le cadre de notre formation avec pour seul contrainte de resté dans le theme des fetes de fin d année, xmassClick est un clicker adictif et dispponible sur : www.Xmass.click",
+        "Xmass.click est un projet hackathon réalisé sur 36 heures à 5 personnes, dans le cadre de notre formation avec pour seul contrainte de rester dans le thème des fêtes de fin d'année, xmassClick est un clicker addictif et disponible sur : www.Xmass.click",
     },
 
     {
@@ -54,7 +54,7 @@ function Projets() {
         "Ceci est le logo github",
       ],
       description:
-        "Projet numero deux au sein de notre ecole (wild code school), realiser a quatres wilder est une anciclopedie de super heros !",
+        "Projet numéro deux au sein de notre école (Wild Code School), réalisé à quatre wilders, c'est une encyclopédie de super heros !",
     },
     {
       id: 3,
@@ -80,9 +80,8 @@ function Projets() {
         "Ceci est le logo github",
       ],
       description:
-        "En cours de developpement, wildy gamy un site de jeux en ligne concue a quatres pour le projet numero trois de notre formation",
+        "En cours de developpement, wildy gamy est un site de jeux en ligne conçue à quatre pour le projet numéro trois de notre formation",
     },
-    
   ];
   return (
     <div className="projects_container">
