@@ -7,18 +7,20 @@ function Apropos() {
         <p>
           Bonjour, je m appelle Nicolas.
           <br /> <br />
-          Recemment lancé dans le monde du développement web et actuellement en
-          formation, j aime explorer les possibilités du code et me lance donc à
-          l’aventure de la découverte de nouvelles technologies.
+          Récemment lancé dans le monde du développement web et actuellement en
+          formation, je me fixe l'objectif de découvrir les technologies
+          modernes qui composent le web.
           <br /> <br /> Actuellement engagé dans un bootcamp intensif de 5 mois,
           je me perfectionne dans le développement web en apprenant les langages
-          essentiels tels qu HTML, CSS, JavaScript, ainsi que des technologies
-          avancées comme React, Node.js, Express, et MySQL. <br /> <br />
-          Passionné par la création d applications web dynamiques et
-          interactives, je suis déterminé à acquérir des compétences
-          approfondies pour réussir dans le domaine du développement. <br />
-          <br /> Explorez mes projets pour en apprendre plus sur mes compétences
-          et ma philosophie.
+          essentiels tels qu'HTML, CSS, JavaScript(vanilla et avec framework),
+          ainsi que des technologies avancées comme React, Node.js, Express, et
+          MySQL. <br /> <br />
+          Ce nouveau challenge que je relève avec plaisir me passionne.
+          L'apprentissage de la création d'application web dynamiques et
+          interactives décuple ma détermination à acquérir de nouvelles
+          compétences. <br />
+          <br /> Je vous invite à découvrir mes projets réalisés afin d'en
+          savoir plus sur mes compétences et ma philosophie.
         </p>
       </div>
     </div>

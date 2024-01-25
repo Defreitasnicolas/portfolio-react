@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .card {
   display: flex;
   border: solid 2px rgba(0, 0, 0, 0.317);
@@ -15,17 +14,14 @@
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
-
 .card:hover {
   transform: scale(1.1);
 }
-
 .image_project {
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
-
 .description {
   width: 15rem;
   color: white;
@@ -40,11 +36,9 @@
   padding: 1rem;
   text-align: center;
 }
-
 .description:hover {
   transform: scale(1.1);
 }
-
 .logo {
   display: flex;
   justify-content: space-around;
@@ -58,20 +52,13 @@
   backdrop-filter: blur(3px);
   border-radius: 10px;
   padding: 0.7rem;
-  transition: transform 0.3s ease-in-out;
 }
-
-.logo:hover {
-  transform: scale(1.1);
-}
-
 .title {
   margin-bottom: 2rem;
   color: white;
   font-size: 26px;
   cursor: pointer;
 }
-
 @media screen and (max-width: 1200px) {
   .logo {
     margin-bottom: 1rem;
@@ -81,7 +68,6 @@
     margin-top: 2rem;
   }
 }
-
 @media screen and (max-width: 970px) {
   .logo {
     margin-bottom: 3rem;

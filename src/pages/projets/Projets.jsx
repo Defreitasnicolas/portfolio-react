@@ -25,7 +25,7 @@ function Projets() {
         "Ceci est le logo github",
       ],
       description:
-        "Xmass.click est un projet hackathon réalisé sur 36 heures à 5 personnes, dans le cadre de notre formation avec pour seul contrainte de rester dans le thème des fêtes de fin d'année, xmassClick est un clicker addictif et disponible sur : www.Xmass.click",
+        "Xmass.click est un projet hackathon réalisé sur 36 heures à 5 personnes, dans le cadre de notre formation avec pour seule contrainte de rester dans le thème des fêtes de fin d'année, xmassClick est un clicker addictif et disponible sur : www.Xmass.click",
     },
 
     {
@@ -80,7 +80,7 @@ function Projets() {
         "Ceci est le logo github",
       ],
       description:
-        "En cours de developpement, wildy gamy est un site de jeux en ligne conçue à quatre pour le projet numéro trois de notre formation",
+        "En cours de développement, wildy gamy est un site de jeux en ligne conçu à quatre pour le projet numéro trois de notre formation.",
     },
   ];
   return (

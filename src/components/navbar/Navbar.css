@@ -19,10 +19,6 @@
 
 .link:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.35);
-  background-color: transparent;
-  backdrop-filter: blur(3px);
-  border-radius: 12px;
 }
 
 .navbar {
